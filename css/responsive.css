@@ -1,0 +1,140 @@
+
+/* =================================================================Big tablets */
+@media only screen and (max-width: 1200px){
+
+.box-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+.country-details {
+	color: white;
+	font-size: 46%;
+	font-weight: 600;
+}
+
+.country-list {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 58%;
+}
+
+/* ================================================================= Medium Tablets */
+@media only screen and (max-width: 1023px){
+.box-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.box-container h1 { 
+	font-weight: 200;
+	color :#fff;
+	margin-bottom: 15px;
+	font-size: 200%;
+}
+
+.btn {
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	padding: 8px 20px;
+	color: white;
+	font-size: 50%;
+	font-weight: 400;
+	width: 113px;
+	transition: background-color 0.4s;
+}
+
+.country-details {
+	color: white;
+	font-size: 46%;
+	font-weight: 600;
+}
+
+.country-list {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 58%;
+}
+
+@media only screen and (max-width: 991px){
+	.country-details {
+		color: white;
+		font-size: 75%;
+		font-weight: 600;
+	}
+
+	.country-list {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		width: 70%;
+	}
+}
+/* =================================================================Smartphones */
+@media only screen and (max-width: 767px){
+	.box-container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	.box-container h1 { 
+		font-weight: 200;
+		color :#fff;
+		margin-bottom: 15px;
+		font-size: 159%;
+	}
+}
+@media only screen and (max-width: 653px){
+
+	.menu,
+	.country-details {
+		display: none;
+	}	
+}
+
+/* Smartphones */
+@media only screen and (max-width: 480px){
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('header.jpg');
+	background-size: cover;
+	background-position: 90% 0;
+	height: 100vh;
+	margin-bottom: 100px
+}
+
+.box-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.box-container h1 { 
+	font-weight: 200;
+	color :#fff;
+	margin-bottom: 15px;
+	font-size: 115%;
+}
+
+
+@media only screen and (max-width: 432px){
+

@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  font-family: 'Raleway', 'arial', 'sans-serif';
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  background-color: #000;
+  padding-bottom: 50px;
+}
+ 
+h1 {
+	margin: 0;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+/*==================================*/
+/* HEADER */
+/*==================================*/
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('header.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin-bottom: 100px
+}
+
+.box-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1140px;
+	text-align: center;
+}
+
+.box-container h1,
+.box-container p { 
+	font-weight: 200;
+	color :#fff;
+}
+
+.box-container h1 {
+	margin-bottom: 0px;
+	font-size: 225%;
+}
+
+.box-container p {
+	margin-bottom: 20px;
+}
+
+.box-container ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.box-container ul li {
+	list-style: none;
+	margin: 15px;
+}
+
+.btn {
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	padding: 8px 20px;
+	color: white;
+	font-size: 70%;
+	font-weight: 400;
+	width: 235px;
+	transition: background-color 0.4s;
+}
+
+.btn:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+/*==================================*/
+/* GALLERY */
+/*==================================*/
+
+.country-header {
+	background-color: rgb(255, 59, 59);
+	padding: 10px 35px;
+	color: white;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.country-list {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.country-details {
+	list-style: none;
+	display: inline-block;
+}
+
+.country-details {
+	color: white;
+	font-size: 69%;
+	font-weight: 600;
+}
+
+.country-value {
+	color: grey;
+}
+
+.no-padding {
+	padding: 3px;
+	overflow: hidden;
+}
+
+.border:hover {
+	outline: 2px solid rgb(255, 59, 59);
+	transition: outline 0.3s;
+}
+
